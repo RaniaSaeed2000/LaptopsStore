@@ -1,0 +1,421 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* start header  */
+.head{
+    margin-top: 40px;
+}
+.icons{
+    margin-top: 10px;
+}
+
+.name{
+  margin-right: 15px;
+  
+}
+.input-search{
+    margin-right: 10px;
+}
+.header  input{
+    outline: none;
+    border-color:transparent;
+    padding:8px;
+    margin-left: 4px;
+    transition: all 0.3s ease;
+    width:100px ;
+}
+
+.header input:focus{
+    transform: translate(-7px);
+    padding-left: -8px;
+
+}
+.icons .third{
+    display: inline-block;
+    position: relative;
+}
+.icons .third .nu-2{
+    position: absolute;
+    top:-20px;
+    right:-15px;
+    text-align: center;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color:#7971ea;
+    color:white;
+}
+
+.third{
+    position: relative;
+    display: inline-block;
+}
+
+.icons .third:hover .nu-2{
+    transform:translate(0px,-5px);
+    transition: all 0.3s ease;
+ }
+
+ .icons .third:not(:hover) .nu-2{
+    transition: all 0.3s ease;
+ }
+
+
+
+.circle{
+    position:absolute;
+    width:20px;
+    height: 20px;
+    background-color: #7971ea;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-18px;
+    right:85px;
+}
+.header  i{
+    color:gray;
+}
+.truck1{
+    transform: scaleX(-1);
+}
+
+.icons i{
+    margin-left: 5px;
+}
+.icons i:hover{
+    color:#7971ea;
+    cursor: pointer;
+}
+
+.name p{
+    border:2px solid gray;
+    padding:8px;
+    width: 160px;
+   /* margin-right: 20px;*/
+    text-align: center;
+   
+}
+.name p:hover{
+    cursor: pointer;
+}
+
+
+
+/* new section nav bar  */
+
+.home {
+    color:#7971ea;
+}
+
+.change{
+    color:gray;
+}
+
+.nav li.nav-item  a:hover{
+    color:#7971ea;
+}
+
+.top-section-bg{
+    background-color: #8ff5eb;
+    /* height: 500px; */
+    padding:50px;
+}
+
+@media screen  and (max-width:767px){
+    .right{
+        margin-top:30px;
+    }
+}
+
+.btn-first-section{
+    width:128px;
+    height: 40px;
+    background-color: #7971ea;
+    color:white;
+    border-color:transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-first-section:hover{
+    background-color:blueviolet;
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px black;
+
+}
+
+.right{
+    padding-top:40px;
+}
+
+/* New section 2  */
+.service{
+    margin-top:30px;
+}
+.service i{
+    color:blueviolet;
+    font-size: 30px;
+    margin-top: 5px;
+   
+}
+.service .icon{
+    text-align: end;
+    padding-right:0;
+}
+.service h5{}
+
+
+
+
+/* new section 3  */
+
+.relative{
+    position: relative;
+    width:90%;
+    height: 370px;
+    margin-top: 20px;
+    
+    overflow:hidden;
+
+}
+.relative img{
+    width:100%;
+  object-fit: cover;
+height: 370px;
+}
+.relative::after{
+    content:'';
+    position: absolute;
+    width:100%;
+    height:150px;
+    background:linear-gradient(to top,rgba(0,0,0,0.733),transparent);
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+
+
+
+.absulote{
+    position: absolute;
+    bottom: 0;
+    left:20px;
+    color:white;
+    z-index: 2;
+}
+
+.relative:hover img {
+    transform: scale(1.1 , 1.1);
+    transition: all 0.3s ease;
+}
+
+
+
+/* start section 4  */
+
+.card{
+    margin-top:40px;
+    padding-left:0;
+    padding-right:0;
+    margin-left: 20px;/*edit*/
+
+  
+}
+
+.line{
+    width:35px;
+    margin: auto;
+    border-bottom: 2px solid #7971ea;
+    margin-top:40px;
+}
+.fetured{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back{
+    background-color: rgb(245, 240, 240);
+    padding :50px;
+    margin-top: 40px;
+
+    
+}
+
+.speech
+{
+   text-align: center;
+}
+.speech h5{
+    color: #7971ea;
+   
+}
+.cards img{
+   
+   object-fit:cover;
+}
+.corator{
+    margin-top:20px;
+}
+.sale
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.offer
+{
+    padding: 50px;
+}
+.discount
+{
+  text-align: center;
+  /* margin-top: 80px; */
+  align-items: center;
+}
+.discount h4
+{
+    color: #7971ea;
+}
+.discount .name
+{
+    color: #7971ea;
+}
+.btn-5th-section{
+    width:128px;
+    height: 40px;
+    background-color: #7971ea;
+    color:white;
+    border-color:transparent;
+    border-radius: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-5th-section:hover{
+    background-color:blueviolet;
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px black;
+
+}
+
+/* footer  */
+
+.link ul{
+    list-style: none;
+}
+.link ul li a{
+    text-decoration: none;
+    color:gray;
+    margin-left:40px;
+}
+h6{
+    margin-left: 25px;
+}
+
+.purple{
+    color:#7971ea;
+    margin-top:15px;
+    margin-bottom: 0;
+}
+
+.navigation{
+    margin-left:25px;
+}
+
+.p-f{
+    color:gray;
+    font-size:14px;
+    margin-top:0;
+}
+
+.img-img{
+    border-radius:3px;
+    object-fit: cover;
+}
+
+
+.contact i{
+    color:#7971ea;
+}
+
+.con{
+    border:1px solid lightgray;
+    display: flex;
+    border-radius: 3px;
+    padding:2px 0;
+    padding-right:2px;
+    padding-left:5px;
+
+}
+.con .input-email{
+    width:100%;
+    outline:none;
+    /* padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px; */
+    border:1px solid transparent;
+    
+}
+.contact{
+    margin-bottom:40px;
+}
+.btn-footer{
+    background-color:#7971ea;
+    padding:7px 20px;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-color:transparent;
+    border-radius: 3px;
+}
+
+.title{
+    font-size:20px;
+    font-weight: 500;
+}
+.title-sub{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.link .link-link ul li a:hover{
+    color:#7971ea
+}
+
+.link .link-link ul li{
+    margin-top:20px;
+}
+@media screen and (max-width:991px) {
+    .navigation{
+        margin-left:0;
+    }
+     .link-link ul li .a{
+        margin-left:14px;
+    } 
+    .btn-footer:hover{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.maker{
+    color:#7971ea;
+}
+.copyright{
+    color:grey;
+    text-align: center;
+}
+.btn-footer:hover{
+    background-color:blueviolet;
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px black;
+   
+}
